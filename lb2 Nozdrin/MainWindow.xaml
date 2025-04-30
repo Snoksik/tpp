@@ -1,0 +1,62 @@
+﻿<Window x:Class="lb2_Nozdrin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lb2_Nozdrin"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="500" Width="350">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Для дисплея -->
+            <RowDefinition Height="*"/>
+            <!-- Для кнопок -->
+            <RowDefinition Height="150"/>
+            <!-- Для истории -->
+        </Grid.RowDefinitions>
+
+        <!-- Текстовое поле для ввода и результатов -->
+        <TextBox x:Name="Display" FontSize="24" Height="50" IsReadOnly="True" 
+                 HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+
+        <!-- Сетка кнопок -->
+        <UniformGrid Grid.Row="1" Columns="4" Rows="5" Margin="0,10,0,10">
+
+            <!-- Первая строка -->
+            <Button Content="(" Click="Button_Click"/>
+            <Button Content=")" Click="Button_Click"/>
+            <Button Content="C" Click="Clear_Click"/>
+            <Button Content="←" Click="Backspace_Click"/>
+
+            <!-- Вторая строка -->
+            <Button Content="7" Click="Button_Click"/>
+            <Button Content="8" Click="Button_Click"/>
+            <Button Content="9" Click="Button_Click"/>
+            <Button Content="/" Click="Button_Click"/>
+
+            <!-- Третья строка -->
+            <Button Content="4" Click="Button_Click"/>
+            <Button Content="5" Click="Button_Click"/>
+            <Button Content="6" Click="Button_Click"/>
+            <Button Content="*" Click="Button_Click"/>
+
+            <!-- Четвёртая строка -->
+            <Button Content="1" Click="Button_Click"/>
+            <Button Content="2" Click="Button_Click"/>
+            <Button Content="3" Click="Button_Click"/>
+            <Button Content="-" Click="Button_Click"/>
+
+            <!-- Пятая строка -->
+            <Button Content="0" Click="Button_Click"/>
+            <Button Content="." Click="Button_Click"/>
+            <Button Content="=" Grid.ColumnSpan="2" Click="Equals_Click"/>
+            <Button Content="+" Click="Button_Click"/>
+        </UniformGrid>
+
+        <!-- История вычислений -->
+        <GroupBox Header="История вычислений" Grid.Row="2">
+            <ListBox x:Name="HistoryList" FontSize="16"/>
+        </GroupBox>
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "lb2 Nozdrin/1.0.0": {
+        "runtime": {
+          "lb2 Nozdrin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lb2 Nozdrin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

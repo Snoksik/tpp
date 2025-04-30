@@ -1,0 +1,20 @@
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\bin\Debug\net8.0-windows\lb2 Nozdrin.exe
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\bin\Debug\net8.0-windows\lb2 Nozdrin.deps.json
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\bin\Debug\net8.0-windows\lb2 Nozdrin.runtimeconfig.json
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\bin\Debug\net8.0-windows\lb2 Nozdrin.dll
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\bin\Debug\net8.0-windows\lb2 Nozdrin.pdb
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin_MarkupCompile.cache
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin_MarkupCompile.lref
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.g.resources
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.AssemblyInfoInputs.cache
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.AssemblyInfo.cs
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.dll
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\refint\lb2 Nozdrin.dll
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.pdb
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\lb2 Nozdrin.genruntimeconfig.cache
+C:\Users\Vlad\source\repos\lb2 Nozdrin\lb2 Nozdrin\obj\Debug\net8.0-windows\ref\lb2 Nozdrin.dll
