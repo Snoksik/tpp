@@ -1,0 +1,43 @@
+﻿<Window x:Class="lb3_Nozdrin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lb3_Nozdrin"
+        mc:Ignorable="d"
+        Title="Заметки" Height="450" Width="600"
+        Closing="Window_Closing">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Поиск -->
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Margin="0 0 0 10">
+            <Label Content="Поиск:" VerticalAlignment="Center"/>
+            <TextBox x:Name="SearchTextBox" Width="200" Margin="5 0 0 0" VerticalAlignment="Center" 
+                     TextChanged="SearchTextBox_TextChanged"/>
+        </StackPanel>
+
+        <!-- Список заметок -->
+        <ListBox x:Name="NotesListBox" Grid.Row="1" Grid.Column="0" Margin="0 0 10 0"
+                 SelectionChanged="NotesListBox_SelectionChanged"/>
+
+        <!-- Текстовое поле для редактирования -->
+        <TextBox x:Name="NoteTextBox" Grid.Row="1" Grid.Column="1" AcceptsReturn="True" TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto" />
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 10 0 0" >
+            <Button Content="Добавить" Width="80" Margin="5" Click="AddButton_Click"/>
+            <Button Content="Сохранить" Width="80" Margin="5" Click="SaveButton_Click"/>
+            <Button Content="Удалить" Width="80" Margin="5" Click="DeleteButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
